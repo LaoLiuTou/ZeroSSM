@@ -1,7 +1,2 @@
-/SqlMapConfig.xml
-/applicationContext.xml
-/com
 /jdbc
-/log4j.properties
-/sql.xml
-/struts.xml
+/com
