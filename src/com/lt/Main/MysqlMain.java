@@ -589,7 +589,7 @@ public class MysqlMain {
 			List tableList = new ArrayList();
 			JdbcBean jb=new JdbcBean();
 			 
-			 Connection con = null; //表示数据库的连接对象  
+			 /*Connection con = null; //表示数据库的连接对象  
 	        Statement stmt = null;  //表示数据库的更新操作  
 	        ResultSet result = null; //表示接收数据库的查询结果  
 	        try {
@@ -612,10 +612,13 @@ public class MysqlMain {
 	        } catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			} 
+			} */
 			
 			
-			//tableList.add("results"); 
+			tableList.add("labels"); 
+			tableList.add("member_label"); 
+			tableList.add("notices"); 
+			tableList.add("notices_label"); 
 			//tableList.add("lot"); 
 
 			

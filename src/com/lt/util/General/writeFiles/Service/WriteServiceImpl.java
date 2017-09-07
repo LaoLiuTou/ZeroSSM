@@ -69,7 +69,7 @@ public class WriteServiceImpl {
             sb.append(" * 通过id选取\n");
             sb.append(" * @return\n");
             sb.append(" */\n");
-            sb.append(" @Transactional\n");
+            //sb.append(" @Transactional\n");
             sb.append("	public "+lowerName+" select"+tableName+"ById(String id){\n");
             sb.append("		return i"+lowerName+"Mapper.select"+tableName+"ById(id);\n");  
             sb.append("	}\n\n");
@@ -78,7 +78,7 @@ public class WriteServiceImpl {
             sb.append(" * @return\n");
             sb.append(" */ \n");
             sb.append(" @SuppressWarnings(\"rawtypes\")\n");
-            sb.append(" @Transactional\n");
+            //sb.append(" @Transactional\n");
             sb.append("	public List<"+lowerName+"> select"+tableName+"ByParam(Map paramMap){ \n");
             sb.append("		return i"+lowerName+"Mapper.select"+tableName+"ByParam(paramMap);\n");  
             sb.append("	}\n\n");
@@ -87,7 +87,7 @@ public class WriteServiceImpl {
             sb.append("	 * @return\n"); 
             sb.append("	 */ \n"); 
             sb.append(" @SuppressWarnings(\"rawtypes\")\n");
-            sb.append(" @Transactional\n");
+            //sb.append(" @Transactional\n");
             sb.append("	public int selectCount"+tableName+"ByParam(Map paramMap){ \n"); 
             sb.append("		return i"+lowerName+"Mapper.selectCount"+tableName+"ByParam(paramMap);\n");  
             sb.append("	}\n\n"); 
