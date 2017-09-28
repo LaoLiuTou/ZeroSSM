@@ -51,7 +51,7 @@ public class WriteJdbc {
             StringBuffer sb=new StringBuffer();
              
             sb.append("driverClassName="+jb.getDbdriver()+"\n");
-            sb.append("url="+jb.getDburl()+"?useUnicode=true&characterEncoding=utf8&autoReconnect=true&rewriteBatchedStatements=TRUE\n");
+            sb.append("url="+jb.getDburl()+"?useUnicode=true&characterEncoding=utf8&autoReconnect=true&rewriteBatchedStatements=TRUE&allowMultiQueries=TRUE\n");
             sb.append("username="+jb.getDbuser()+"\n");
             sb.append("password="+jb.getDbpassword()+"\n");
             

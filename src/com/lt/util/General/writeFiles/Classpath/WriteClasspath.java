@@ -66,6 +66,7 @@ public class WriteClasspath {
         	sb.append(" <classpathentry kind=\"lib\" path=\"WebRoot/WEB-INF/lib/commons-beanutils-1.7.0.jar\"/>\n");
         	sb.append(" <classpathentry kind=\"lib\" path=\"WebRoot/WEB-INF/lib/commons-codec-1.3.jar\"/>\n");
         	sb.append(" <classpathentry kind=\"lib\" path=\"WebRoot/WEB-INF/lib/commons-collections-3.1.jar\"/>\n");
+        	sb.append(" <classpathentry kind=\"lib\" path=\"WebRoot/WEB-INF/lib/commons-dbcp-1.2.1.jar\"/>\n");
         	sb.append(" <classpathentry kind=\"lib\" path=\"WebRoot/WEB-INF/lib/commons-httpclient-3.1.jar\"/>\n");
         	sb.append(" <classpathentry kind=\"lib\" path=\"WebRoot/WEB-INF/lib/commons-logging-1.1.3.jar\"/>\n");
         	sb.append(" <classpathentry kind=\"lib\" path=\"WebRoot/WEB-INF/lib/dom4j-1.6.1.jar\"/>\n");
