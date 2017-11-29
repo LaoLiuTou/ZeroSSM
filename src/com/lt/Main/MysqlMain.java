@@ -615,10 +615,9 @@ public class MysqlMain {
 			} */
 			
 			
-			tableList.add("labels"); 
-			tableList.add("member_label"); 
-			tableList.add("notices"); 
-			tableList.add("notices_label"); 
+			tableList.add("user_set"); 
+			//tableList.add("group_status"); 
+			 
 			//tableList.add("lot"); 
 
 			
